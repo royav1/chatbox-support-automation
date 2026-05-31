@@ -1,5 +1,15 @@
 # Chatbox Support Automation
 
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![Multi--Tenant](https://img.shields.io/badge/Multi--Tenant-Supported-blueviolet)
+![LLM Layer](https://img.shields.io/badge/LLM-Mock%20%2F%20OpenAI-green)
+
 A Dockerized full-stack demo for deterministic, multi-tenant IT support automation.
 
 Chatbox combines a FastAPI backend, React/Vite frontend, Redis session/state storage, and SQLite persistence for usage and tenant data. It demonstrates deterministic support workflows, email ingest automation, tenant-aware Jira-style payload previews, and an optional mock/OpenAI LLM classification layer.
