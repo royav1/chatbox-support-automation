@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environments =====
+env/
+venv/
+.venv/
+
+# ===== Environment variables =====
+.env
+.env.*
+!.env.example
+
+# ===== Redis =====
+dump.rdb
+*.rdb
+
+# ===== Data / local DB =====
+data/
+*.sqlite
+*.db
+
+# ===== Frontend =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs / caches =====
+*.log
+.pytest_cache/
+
+# ===== Coverage =====
+.coverage
+htmlcov/
+
+# ===== Python build artifacts =====
+*.egg-info/

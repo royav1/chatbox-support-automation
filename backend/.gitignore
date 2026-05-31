@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environments =====
+env/
+venv/
+.venv/
+
+# ===== Environment variables =====
+.env
+.env.*
+!.env.example   # allow committing a template if you add one later
+
+# ===== Redis =====
+dump.rdb
+*.rdb
+
+# ===== Data / local DB =====
+data/
+*.sqlite
+*.db
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs / caches =====
+*.log
+.pytest_cache/
